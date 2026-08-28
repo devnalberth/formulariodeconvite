@@ -1,0 +1,35 @@
+#projeto {
+  display: grid;
+  grid-template-columns: 25rem 1fr;
+
+  height: 100vh;
+  overflow: hidden;
+  padding: 1.25rem;
+}
+
+main {
+  overflow: auto;
+  padding: 5rem;
+}
+
+aside {
+  background-image: url("../assets/images/Background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+  padding: 2rem;
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.title {
+  line-height: 1rem;
+}
+
+.brand-name {
+  font: var(--logo);
+  color: var(--pink);
+
+}
