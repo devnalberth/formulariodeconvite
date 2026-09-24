@@ -46,6 +46,7 @@
   --text-body: #C8CDD0;
   --text-heading: #F9F9F9;
 
+  color-scheme: dark;
 }
 
 body {
@@ -69,4 +70,23 @@ h2 {
 
 label {
   font: var(--body-sm);
+}
+
+img {
+  display: block;
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+  color: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
 }
