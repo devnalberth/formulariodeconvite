@@ -57,8 +57,6 @@ http://localhost:5500
 
 O layout foi implementado a partir do arquivo do Figma disponibilizado pela Rocketseat, seguindo os tokens de cor, tipografia e espaçamento do design.
 
-[Acessar o projeto no Figma](https://www.figma.com/design/RJxzrlRm12kK3GZnPGRcie/Formul%C3%A1rio-de-convite--Community-?node-id=2128-1416&m=dev)
-
 Principais características:
 
 - Tema escuro com tokens de cor centralizados em variáveis CSS
